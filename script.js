@@ -3,11 +3,11 @@
 const CONFIG = {
   version: 1,
   storageKey: "dad-exe:birthday:v1",
-  acceptedAnswers: ["หมี", "เจ้าหมี"],
+  acceptedAnswers: ["หมี", "เจ้าหมี", "เอิน", "Earn"],
   blessingDays: 12, // A joke written by the family, NOT a live countdown.
   rules: { maxAttempts: 3, aiMistakeChance: 0.28, aiDelay: 650, chairRepetitions: 3 },
   rewards: [
-    { id: "bronze", rank: "BRONZE", title: "FUCKING BAD LUCK", items: ["Lazada voucher ฿300", "One lottery ticket"], message: "You're still alive. That's your reward.", thai: "ยังมีชีวิตอยู่ ก็นับว่าได้รางวัลแล้วนะพ่อ", symbol: "♣" },
+    { id: "bronze", rank: "BRONZE", title: "BETTER LUCK NEXT TIME", items: ["Lazada voucher ฿300", "One lottery ticket"], message: "You're still alive. That's your reward.", thai: "ยังมีชีวิตอยู่ ก็นับว่าได้รางวัลแล้วนะพ่อ", symbol: "♣" },
     { id: "silver", rank: "SILVER", title: "SURVIVAL PACKAGE", items: ["Lazada voucher ฿500"], message: "Not rich. Not poor. Just sponsored.", thai: "ไม่รวย ไม่จน แค่มีลูกเป็นสปอนเซอร์", symbol: "♠" },
     { id: "gold", rank: "GOLD", title: "LUCKY OLD MAN", items: ["Lazada voucher ฿500", "One lottery ticket"], message: "God has entered the chat.", thai: "สิ่งศักดิ์สิทธิ์เข้าร่วมแชตแล้ว", symbol: "♦" },
     { id: "platinum", rank: "PLATINUM", title: "DAD'S PREMIUM PLAN", items: ["Lazada voucher ฿500", "Buffet voucher ฿300"], message: "Eat like a king. Retire like a legend.", thai: "กินอย่างราชา เกษียณอย่างตำนาน", symbol: "♛" },

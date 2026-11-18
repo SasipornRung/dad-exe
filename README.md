@@ -49,7 +49,7 @@ GitHub Pages publishes this repository's `main` branch from its root folder. The
 
 Edit the `CONFIG` object at the top of `script.js`:
 
-- `acceptedAnswers`: accepted boyfriend names, initially `["หมี", "เจ้าหมี"]`. Comparison applies Unicode normalization, removes whitespace (including internal whitespace), and ignores case. This is a family joke, not authentication. Names are visible in the static source; do not store a password here.
+- `acceptedAnswers`: accepted boyfriend names, initially `["หมี", "เจ้าหมี", "เอิน", "Earn"]`. Comparison applies Unicode normalization, removes whitespace (including internal whitespace), and ignores case. This is a family joke, not authentication. Names are visible in the static source; do not store a password here.
 - `blessingDays`: the fixed number in the jackpot blessing joke, initially `12`. It is deliberately not a live countdown.
 - `rewards`: tiers, voucher amounts, prize descriptions, English jokes and Thai translations. The first **four** entries form the normal card/reroll pool; keep the secret fifth entry last and preserve IDs.
 - `bosses`: family labels, judges and nonphysical challenge instructions.
@@ -147,7 +147,7 @@ Use demo mode for destructive scenario changes and the normal URL for storage is
 - [ ] RETRY / REST stays on the current boss, increments its retry count, and loses no reward. Refresh preserves this and the selected activity.
 - [ ] PASSED for Mom reaches younger brother. PASSED there reaches FINAL SECURITY CHECK. Repeated taps cannot skip screens.
 - [ ] Wrong name shows ACCESS DENIED and the Thai joke, and allows another try. Empty input is required-field validated.
-- [ ] Test `หมี`, `เจ้าหมี`, surrounding spaces and internal spaces. For a temporarily configured English alias, mixed case is accepted. Correct answers unlock God Mode without another family member's approval.
+- [ ] Test `หมี`, `เจ้าหมี`, `เอิน`, `Earn`, surrounding spaces and internal spaces. English variants such as `earn` and `EARN` are accepted. Correct answers unlock God Mode without another family member's approval.
 - [ ] Type `<img src=x onerror=alert(1)>`: it is treated as an incorrect name and never executed or inserted as HTML.
 
 ### God Mode and all endings
